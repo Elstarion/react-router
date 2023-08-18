@@ -1,0 +1,38 @@
+.navbar {
+  font-size: 40px;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #030179;
+}
+
+.navbar ul {
+  list-style: none;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-title {
+  font-size: 46px;
+}
+
+.home-img {
+  height: 700px;
+}
+
+.App {
+  background: #202020;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
